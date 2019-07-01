@@ -17,6 +17,8 @@ Link To Unicode -> https://en.wikipedia.org/wiki/Katakana_(Unicode_block).
 
 The application was publised using [GitHub Pages](https://pages.github.com/).
 
+Embedded p5.min.js to accomadate local GitHub Pages viewing.
+
 Here is link to view the application:
 
 [Sushil G JS Matrix Rain Using p5.js](https://susgupta.github.io/js_p5_matrix_rain/index.html)
