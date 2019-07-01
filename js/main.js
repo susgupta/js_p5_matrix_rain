@@ -88,7 +88,7 @@ function Symbol(x, y, speed, first) {
 function Stream() {
     this.symbols = [];
     this.totalSymbols = round(random(5, 30));
-    this.speed = random(5, 20);
+    this.speed = random(4, 17);
 
     //create symbols
     this.generateSymbols = function (x, y) {
