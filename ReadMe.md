@@ -7,6 +7,9 @@ The inspiration is from a tutorial from [Emily Xie Matrix Rain Tutorial](https:/
 Intitially **Katakana** characters are used, like in the Matrix.
 Link To Unicode -> https://en.wikipedia.org/wiki/Katakana_(Unicode_block).
 
+However to make it unique and different I decided to use **Runic** unicode.
+Link To Unicode -> https://en.wikipedia.org/wiki/Runic_(Unicode_block).
+
 ## Technologies Used
 
 - HTML

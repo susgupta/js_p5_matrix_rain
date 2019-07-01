@@ -2,10 +2,16 @@
  * Using p5.js to make all things happen, extending functions from that
  */
 
-//number of available characters
+/** 
+These were original Katakana settings
 const AVAILABLE_CHARACTERS = 96;
-//the starting unicde character
 const STARTING_UNICODE_CHARACTER = 0X30A0;
+*/
+
+//number of available characters - Runic
+const AVAILABLE_CHARACTERS = 56;
+//the starting unicde character - Runic
+const STARTING_UNICODE_CHARACTER = 0X16A0;
 
 var symbolSize = 24;
 var streams = [];
@@ -88,7 +94,7 @@ function Symbol(x, y, speed, first) {
 function Stream() {
     this.symbols = [];
     this.totalSymbols = round(random(5, 30));
-    this.speed = random(4, 17);
+    this.speed = random(4, 15);
 
     //create symbols
     this.generateSymbols = function (x, y) {
